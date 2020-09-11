@@ -1,0 +1,49 @@
+.header-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height :50px;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    margin-right: 1px;
+    background-color: goldenrod;
+    border-radius: 5px !important;
+}
+
+.header-up h1 {
+    
+    -webkit-text-stroke: 2px red;
+    color: white;
+    text-shadow:
+        4px 4px 0 #000,
+      -1px -1px 0 #000,  
+       1px -1px 0 #000,
+       -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.my-btn{
+    position: relative;
+    left: 550px;
+    box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background-color:transparent;
+	border-radius:6px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+
+.my-btn:hover {
+	color: goldenrod;
+}
+
+

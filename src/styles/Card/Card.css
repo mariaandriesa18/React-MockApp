@@ -1,0 +1,29 @@
+.cute{
+    color : black;
+    width: 314px; 
+    height: 370px;
+    margin: 10px;
+    border : 6px solid rgb(107, 12, 28);
+    background-color: darkorchid;
+    
+}  
+
+.kura > li > img{
+    width: 314px;
+    height: 250px;
+    margin-left: -42px;
+}
+
+.cute:hover {
+    background-color: coral;
+    border: 6px solid peru;
+    color: white;
+
+}
+
+li{
+    list-style-type: none;
+}
+.kura{
+    margin: 16px 3px;
+}
